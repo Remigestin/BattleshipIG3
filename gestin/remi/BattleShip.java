@@ -39,6 +39,8 @@ public class BattleShip {
 				String choice = sc.nextLine();
 
 				if (choice.equals("1")) {
+					Player p1 = new Human();
+					Player p2 = new Human();
 
 					valid = true;
 
